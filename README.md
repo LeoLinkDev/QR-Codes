@@ -31,6 +31,10 @@ See the [Style Guide](style-guide.md) for detailed design specifications.
 
 HTML, CSS, and [Mermaid.js](https://www.mermaid.ai) for diagramming.
 
+### Deployment
+
+The site is automatically deployed to GitHub Pages via the `Deploy static site to Pages` workflow in `.github/workflows/deploy-pages.yml`. Pushes to `main` (or a manual workflow dispatch) publish the current contents of the repository root to Pages.
+
 ## The challenge
 
 The Frontend Mentor challenge is to build a QR code component and get it looking as close to the pictures of the following designs: 
@@ -108,5 +112,4 @@ The `style-guide.md` contains the color palette and fonts specifications.
 </a>
 
 * [GitHub repo](https://LeoLinkDev.Github.io/)
-
 
