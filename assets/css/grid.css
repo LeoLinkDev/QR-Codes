@@ -1,0 +1,31 @@
+/* Grid Layout Styles */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns by default implies 2x2 for 4 items */
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 2rem;
+}
+
+/* Override body for grid page if necessary to allow scrolling */
+body {
+  height: auto;
+  min-height: 100vh;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  justify-content: flex-start;
+}
+
+/* Ensure card behaves as a list item */
+.card-item {
+  display: flex;
+  justify-content: center;
+}
+
+/* Screen resized to less than 1000px */
+@media (max-width: 1000px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}

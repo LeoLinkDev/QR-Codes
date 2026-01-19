@@ -1,0 +1,108 @@
+/* For grid and card layout */
+:root {
+    --white: hsl(0, 0%, 100%);
+    --slate-300: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(218, 44%, 22%);
+}
+
+/* CSS reset global styles*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.9375rem; /* 15px */
+    background-color: var(--slate-300);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.btn-home {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--white);
+    color: var(--slate-900);
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0.75rem 1.5rem;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-home:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    background-color: var(--white);
+    width: 90%;
+    max-width: 20rem; /* 320px */
+    padding: 1rem; /* 16px */
+    border-radius: 1.25rem; /* 20px */
+    text-align: center;
+    box-shadow: 0px 1.5625rem 1.5625rem 0px rgba(0, 0, 0, 0.0477); /* 25px */
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 2rem 2rem 0px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 0.625rem; /* 10px */
+    display: block;
+}
+
+.text-content {
+    padding: 1.5rem 1rem; /* 24px 16px */
+}
+
+.text-content h1 {
+    color: var(--slate-900);
+    font-weight: 700;
+    font-size: 1.375rem; /* 22px */
+    line-height: 1.2;
+    margin-bottom: 1rem; /* 16px */
+}
+
+.text-content p {
+    color: var(--slate-500);
+    font-weight: 400;
+    font-size: 0.9375rem; /* 15px */
+    line-height: 1.4;
+    letter-spacing: 0.0125rem; /* 0.2px */
+}
+
+.attribution {
+    font-size: 0.6875rem; /* 11px */
+    text-align: center;
+    margin-top: 1.25rem; /* 20px */
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
+
+.attribution a:focus-visible {
+    outline: 2px dashed var(--slate-900);
+    outline-offset: 2px;
+}
+
