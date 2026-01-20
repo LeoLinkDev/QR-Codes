@@ -111,4 +111,4 @@ The `style-guide.md` contains the color palette and fonts specifications.
     <img src="./images/landing.jpg" alt="Landing Page Screenshot" style="width:100%;">
 </a>
 
-* [GitHub repo](https://LeoLinkDev.Github.io/)
+* [GitHub repo](https://github.com/LeoLinkDev/QR-Codes/)
