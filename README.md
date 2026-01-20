@@ -112,4 +112,3 @@ The `style-guide.md` contains the color palette and fonts specifications.
 </a>
 
 * [GitHub repo](https://LeoLinkDev.Github.io/)
-
