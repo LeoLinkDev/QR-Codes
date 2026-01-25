@@ -1,7 +1,7 @@
 /* Grid Layout Styles */
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns by default implies 2x2 for 4 items */
+  grid-template-columns: repeat(3, 1fr); /* 3 columns by default implies 3x1 for 3 items */
   gap: 2rem;
   list-style: none;
   padding: 0;
