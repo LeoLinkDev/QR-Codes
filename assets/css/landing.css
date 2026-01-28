@@ -4,6 +4,7 @@
     flex-wrap: wrap;
     justify-content: center;
     padding: 2rem;
+    gap: 20px;             /* Adjust this to match your current spacing */    
 }
 
 .nav-card {

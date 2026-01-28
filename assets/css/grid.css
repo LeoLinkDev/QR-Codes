@@ -6,6 +6,7 @@
   list-style: none;
   padding: 0;
   margin: 2rem;
+  justify-items: center; /* Centers items within their grid cells */
 }
 
 /* Override body for grid page if necessary to allow scrolling */
